@@ -11,8 +11,8 @@ Inside the Supervisor tab in HomeAssistant you can get more information in each 
 ## Installation
 
 1. Add the repository to your Supervisor
-   <br>[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fkellerza%2Fhassio-sma-em)
-   `https://github.com/kellerza/hassio-sma-em` <br><br>
+   <br>[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FDreadWings7963%2Fhassio-sma-em)
+   `https://github.com/DreadWings7963/hassio-sma-em` <br><br>
 
 2. Install the SMA Energy Meter from the **Add-On Store** & configure through the UI
 
