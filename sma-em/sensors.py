@@ -178,14 +178,14 @@ def get_sensors(*, definition: str, emparts: dict):
 
         sen = SWSensor(name=name, mod=mod, unit=emparts.get(f"{name}unit"))
         if sen.mod in ["min", "max"]:
-            sen.interval = 60
+            sen.interval = 2
         else:
             try:
                 sen.interval = int(mod)
                 sen.mod = "avg"
             except ValueError:
                 sen.mod = ""
-                sen.interval = 60
+                sen.interval = 2
         sen.device_class = hass_device_class(unit=sen.unit)
         res.append(sen)
 
